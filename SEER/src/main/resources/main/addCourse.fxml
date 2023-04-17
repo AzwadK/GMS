@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: #eee;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.addCourseController">
+   <children>
+      <AnchorPane prefHeight="68.0" prefWidth="500.0" style="-fx-background-color: #6F38C5;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label fx:id="logo" layoutX="39.0" layoutY="15.0" prefHeight="39.0" prefWidth="158.0" text="Add Course" textFill="#eeeeee" AnchorPane.leftAnchor="39.0">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="cancel_btn" layoutX="385.0" layoutY="18.0" mnemonicParsing="false" onMouseClicked="#close" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: #f44336;" text="Close" textFill="#eeeeee" AnchorPane.leftAnchor="385.0" AnchorPane.rightAnchor="14.0">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="cname" layoutX="25.0" layoutY="148.0" text="Course Name" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="section" layoutX="55.0" layoutY="194.0" text="Section" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="ct1" layoutX="64.0" layoutY="248.0" text="CT - 1" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="ct2" layoutX="64.0" layoutY="295.0" text="CT - 2" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="ct3" layoutX="65.0" layoutY="341.0" text="CT - 3" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="mid" layoutX="72.0" layoutY="389.0" text="Mid" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="att" layoutX="34.0" layoutY="442.0" prefHeight="28.0" prefWidth="132.0" text="Attendance" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="assgn" layoutX="34.0" layoutY="490.0" text="Assignment" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="finalText" layoutX="68.0" layoutY="536.0" text="Final" textFill="#87a2fb">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="courseNameField" layoutX="174.0" layoutY="146.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sectionField" layoutX="174.0" layoutY="192.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ct1Field" layoutX="174.0" layoutY="246.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ct2Field" layoutX="174.0" layoutY="293.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ct3Field" layoutX="174.0" layoutY="339.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="midField" layoutX="174.0" layoutY="387.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="attField" layoutX="174.0" layoutY="439.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="assgnField" layoutX="174.0" layoutY="486.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="finalField" layoutX="174.0" layoutY="534.0" prefHeight="25.0" prefWidth="299.0" style="-fx-border-radius: 5px; -fx-border-width: 3px; -fx-border-color: #87a2fb;" AnchorPane.leftAnchor="174.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="save_btn" layoutX="250.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#save" prefHeight="51.0" prefWidth="146.0" style="-fx-background-color: #87a2fb;" text="Save" textFill="#eeeeee" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="104.0">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="108.0" layoutY="583.0" mnemonicParsing="false" onMouseClicked="#clean" prefHeight="51.0" prefWidth="124.0" style="-fx-background-color: #87a2fb;" text="Clean" textFill="#fffdfd">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
